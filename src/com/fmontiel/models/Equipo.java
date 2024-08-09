@@ -32,4 +32,10 @@ public class Equipo {
             jugador.jugarPartido();
         }
     }
+
+    public List<Jugador> getListaJugadores() {
+        return listaJugadores;
+    }
+    
+    
 }
